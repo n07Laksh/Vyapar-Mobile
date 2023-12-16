@@ -1,0 +1,78 @@
+@import "~bootstrap/scss/bootstrap";
+@import "style";
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Great+Vibes&family=Ma+Shan+Zheng&family=Permanent+Marker&family=Playfair:opsz,wght@5..1200,300&family=Poltawski+Nowy&display=swap");
+
+:root {
+  --primary-bg: #040404;
+  --primary-color: #fff;
+  --secondry-color: #040404;
+  --primary-hover-color: rgb(21, 87, 129);
+}
+
+* {
+  user-select: none;
+}
+
+body,
+html {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 13px;
+}
+
+input,
+select {
+  padding: 0 7px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.tribe-app {
+  font-family: "Permanent Marker", cursive;
+  /* Use the font-family name inside quotes */
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(21, 87, 129);
+  margin-left: 5px;
+}
+
+.btn {
+  height: 44px;
+  background: var(--primary-bg);
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+
+.btn:hover {
+  background: var(--primary-bg);
+  color: var(--primary-color);
+}
+
+.btn:active {
+  background: var(--primary-bg);
+}
+
+.btn:visited {
+  background: var(--primary-bg);
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
